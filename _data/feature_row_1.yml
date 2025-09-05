@@ -1,0 +1,22 @@
+- image_path: https://i.imgur.com/YDcQecC.png
+  alt: "EZ-Flash Logo"
+  title: "EZ-Flash Guide"
+  excerpt: "Comprehensive guide including: Models, Guides, Troubleshooting, Cheats, Themes, and more!"
+  url: "/ez-flash/"
+  btn_label: "Open Guide"
+  btn_class: "btn--primary"
+
+- image_path: https://raw.githubusercontent.com/alrra/browser-logos/main/src/chrome/chrome_128x128.png
+  alt: "Chromium Extensions"
+  title: "Chromium Extensions"
+  excerpt: "Little side projects of mine — including Stremio tools and Amazon “Save for Later” search."
+  url: "https://github.com/ChimeraGaming/Chromium-Based-Web-Extensions"
+  btn_label: "View Repo"
+
+- image_path: https://chimeragaming.github.io/LOZ_Link_Translator/triforce.png
+  alt: "Link Translator"
+  title: "Link Translator"
+  excerpt: "English ↔ Grunt translator (Inside Joke)."
+  url: "/LOZ_Link_Translator/"
+  btn_label: "Open Translator"
+  btn_class: "btn--primary"
