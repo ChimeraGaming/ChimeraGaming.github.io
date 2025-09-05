@@ -2,12 +2,10 @@
 title: EZ-Flash Guide
 layout: single
 permalink: /ez-flash/
-custom_css:
-  - /assets/css/buttons.css
 ---
 
-<div style="text-align:center; margin-top: 14vh;">
-  <a href="https://github.com/ChimeraGaming/EZ-Flash_Guide" class="glow-button">
+<div class="single-center">
+  <a href="https://github.com/ChimeraGaming/EZ-Flash_Guide" class="btn">
     Guide Placeholder
   </a>
 </div>
