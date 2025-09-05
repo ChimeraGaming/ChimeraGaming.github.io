@@ -1,6 +1,5 @@
 ---
 layout: single
-title: Welcome!
 classes: narrow
 
 feature_row:
