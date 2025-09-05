@@ -3,6 +3,7 @@ title: Projects
 layout: single
 permalink: /projects/
 custom_css:
+  - /assets/css/buttons.css
   - /assets/css/projects.css
 ---
 
