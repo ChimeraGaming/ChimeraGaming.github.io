@@ -1,42 +1,42 @@
 <style>
-/* --- HERO (smaller splash) --- */
+/* ========= Masthead (top bar) ========= */
+.masthead { padding: .35rem 0; }
+.greedy-nav .site-title { font-size: 1.05rem; }
+.greedy-nav a, .masthead__menu-item { font-size: 1rem; }
+
+/* ========= Splash hero (smaller) ========= */
 .page__hero-title {
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.15;
-  margin-bottom: .4rem;
+  margin-bottom: .35rem;
 }
-@media (min-width:768px){
-  .page__hero-title { font-size: 2.6rem; }
+@media (min-width: 900px) {
+  .page__hero-title { font-size: 2.2rem; }
 }
-.page__hero-subtitle,
-.page__hero-description {
-  font-size: 1.05rem;
+.page__hero-subtitle, .page__hero-description {
+  font-size: 1rem;
+  line-height: 1.45;
   max-width: 760px;
   margin: 0 auto;
 }
-.page__hero--overlay {
-  padding: 2.25rem 1rem;
-}
+.page__hero--overlay { padding: 1.75rem 1rem; }
 
-/* --- BUTTONS --- */
-.btn {
-  font-size: .9rem;
-  padding: .4rem 1rem;
-}
+/* ========= Buttons ========= */
+.btn { font-size: .9rem; padding: .4rem 1rem; }
 
-/* --- FEATURE ROW (cards) --- */
+/* ========= Feature rows ========= */
 .feature__wrapper { grid-gap: 1rem; }
 .archive__item-title { font-size: 1.1rem; }
 .archive__item-excerpt { font-size: .95rem; }
 
-/* --- UNIFORM CARD IMAGES (transparent background) --- */
+/* Uniform, transparent teaser images (no black boxes) */
 .archive__item-teaser img {
   width: 100%;
   height: auto;
-  max-height: 220px;    /* keeps all card images balanced */
-  object-fit: contain;  /* show full image, no crop */
-  background: transparent;
+  max-height: 220px;
+  object-fit: contain;     /* show full image */
+  background: transparent; /* keep PNG transparency */
   padding: 0;
-  border-radius: 4px;   /* optional subtle rounding */
+  border-radius: 4px;
 }
 </style>
