@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "EZ-Flash Guide"
+    url: /ez-flash/
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/
