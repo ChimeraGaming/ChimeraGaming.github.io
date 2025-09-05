@@ -5,14 +5,15 @@ permalink: /projects/
 ---
 
 <div class="project-buttons">
+
   <div class="project-card">
-    <a href="/ez-flash/" class="btn">EZ-Flash Guide</a>
+    <a href="https://github.com/ChimeraGaming/EZ-Flash_Guide" class="btn">EZ-Flash<br>Guide</a>
     <p>Comprehensive guide for EZ-Flash carts.</p>
   </div>
 
   <div class="project-card">
-    <a href="/LOZ_Link_Translator/" class="btn">Link Translator</a>
-    <p>Inside-joke translator: English ↔ Grunt.</p>
+    <a href="https://chimeragaming.github.io/LOZ_Link_Translator/" class="btn">Link<br>Translator</a>
+    <p>Inside-joke translator:<br>English ↔ Grunt.</p>
   </div>
 
   <div class="project-card">
@@ -22,6 +23,7 @@ permalink: /projects/
 
   <div class="project-card">
     <a href="https://chimeragaming.github.io/" class="btn">This Github.io</a>
-    <p>The site you’re on — built with Jekyll + Minimal Mistakes.</p>
+    <p>The site you’re on, built with Jekyll + Minimal Mistakes.</p>
   </div>
+
 </div>
