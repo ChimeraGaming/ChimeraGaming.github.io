@@ -1,13 +1,11 @@
 ---
 layout: splash
 title: ChimeraGaming
+classes: narrow   # makes the content area slimmer
 
-# HERO (keeps dark look; no image so it's clean + compact)
 header:
   overlay_color: "#000000"
   overlay_filter: 0.78
-  # If you want a subtle texture later, uncomment one line below:
-  # overlay_image: https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=1920&q=80&auto=format&fit=crop
   actions:
     - label: "EZ-Flash Guide"
       url: /ez-flash/
@@ -19,7 +17,6 @@ excerpt: >
   Retro modding, clean guides, and helpful tools.  
   GBA • NDS • 3DS • PSP/Vita • Chromium Extensions
 
-# FEATURE ROW 1 — your main projects
 feature_row:
   - image_path: https://upload.wikimedia.org/wikipedia/commons/3/39/Game_Boy_Advance_SP_Mk2.jpg
     alt: "EZ-Flash Guide"
@@ -41,7 +38,6 @@ feature_row:
     url: "https://github.com/ChimeraGaming/LOZ_Link_Translator"
     btn_label: "View Repo"
 
-# FEATURE ROW 2 — about + business
 feature_row_2:
   - image_path: https://avatars.githubusercontent.com/u/9919?s=200&v=4
     alt: "About"
@@ -49,7 +45,7 @@ feature_row_2:
     excerpt: "Full Sail IT grad building guides and tools that actually help."
     url: "/about/"
     btn_label: "Read More"
-  - image_path: https://static.xx.fbcdn.net/rsrc.php/v3/yO/r/XXyzXYZ.png
+  - image_path: https://scontent.fmri1-1.fna.fbcdn.net/v/t39.30808-6/544746622_746007288317008_903971971000863529_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=WBwzEa22OvsQ7kNvwFad3eM&_nc_oc=AdlSo_Kkeh2C-iYaBfjIkqplzGq0-zMrDTTIwaLZq1ISHrtoXFm4zSTvb8U7svp58KU&_nc_zt=23&_nc_ht=scontent.fmri1-1.fna&_nc_gid=ImT4IMD9Y9eka06Mc5rFQA&oh=00_AfbIq3E6kA9AAAW-YJSrpFACAQYbD-IhvUrzrhBZ2Ks6aA&oe=68C140D2
     alt: "Modded In The Valley"
     title: "Modded In The Valley"
     excerpt: "My console modding shop — from shell swaps to part mods."
@@ -68,4 +64,3 @@ If you’re here for handheld flashcarts, start with the **[EZ-Flash Guide](/ez-
 <p style="text-align:center; margin-top:1.25rem;">
   <a class="btn btn--primary" href="/projects/"><i class="fas fa-code"></i> View All Projects</a>
 </p>
-
