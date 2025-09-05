@@ -13,6 +13,10 @@ plugins:
 # Theme skin options: default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
 minimal_mistakes_skin: "dark"
 
+# Custom Buttons
+custom_css: 
+  - /assets/css/custom.css
+
 search: true
 
 author:
