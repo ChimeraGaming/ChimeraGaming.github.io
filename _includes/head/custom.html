@@ -10,25 +10,58 @@
   margin-bottom: 1rem;
 }
 
-/* ========= Buttons ========= */
-.btn {
+/* ========= Feature rows (card grid) ========= */
+.feature__wrapper { 
+  grid-gap: 1.5rem; 
+}
+
+.archive__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;   /* keep everything centered */
+  background: #1e1e1e;  /* subtle card background */
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.archive__item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.archive__item-teaser {
+  margin-bottom: .5rem;
+}
+
+.archive__item-teaser img {
+  width: 100%;
+  max-width: 180px;
+  max-height: 180px;
+  object-fit: contain;
+  background: transparent;
+  border-radius: 6px;
+}
+
+/* Move button directly under image */
+.archive__item .btn {
+  margin-top: .5rem;
+  margin-bottom: .75rem;
   font-size: .9rem;
   padding: .4rem 1rem;
 }
 
-/* ========= Feature rows ========= */
-.feature__wrapper { grid-gap: 1rem; }
-.archive__item-title { font-size: 1.1rem; }
-.archive__item-excerpt { font-size: .95rem; }
+/* Titles and text */
+.archive__item-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: .35rem;
+}
 
-/* ========= Uniform transparent teaser images ========= */
-.archive__item-teaser img {
-  width: 100%;
-  height: auto;
-  max-height: 220px;
-  object-fit: contain;
-  background: transparent;
-  padding: 0;
-  border-radius: 4px;
+.archive__item-excerpt {
+  font-size: .9rem;
+  line-height: 1.4;
+  margin-top: 0;
 }
 </style>
