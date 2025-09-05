@@ -24,14 +24,3 @@ author:
     - label: Modded In The Valley
       icon: fas fa-tools
       url: https://www.facebook.com/ModdedInTheValley/
-
-# Footer      
-<footer class="page__footer">
-  <div class="page__footer-follow">
-    <p>© 2025 ChimeraGaming — Retro modding, guides, and tools.</p>
-    <p>
-      <a href="https://github.com/ChimeraGaming">GitHub</a> ·
-      <a href="https://www.facebook.com/ModdedInTheValley/">Modded In The Valley</a>
-    </p>
-  </div>
-</footer>
