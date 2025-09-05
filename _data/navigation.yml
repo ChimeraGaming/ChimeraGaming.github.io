@@ -1,7 +1,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "EZ-Flash Guide"
+  - title: "EZ-Flash"
     url: /ez-flash/
   - title: "Projects"
     url: /projects/
