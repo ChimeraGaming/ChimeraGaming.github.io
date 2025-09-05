@@ -31,12 +31,13 @@ feature_row:
     excerpt: "Handy tools for Chrome/Brave/Edge."
     url: "https://github.com/ChimeraGaming/Chromium-Based-Web-Extensions"
     btn_label: "View Repo"
-  - image_path: https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/thelegendofzelda.svg
+  - image_path: https://chimeragaming.github.io/LOZ_Link_Translator/triforce.png
     alt: "Link Translator"
     title: "Link Translator"
     excerpt: "English ↔ Grunt translator (fun side project)."
-    url: "https://github.com/ChimeraGaming/LOZ_Link_Translator"
-    btn_label: "View Repo"
+    url: "/LOZ_Link_Translator/"
+    btn_label: "Open Translator"
+    btn_class: "btn--primary"
 
 feature_row_2:
   - image_path: https://avatars.githubusercontent.com/u/9919?s=200&v=4
