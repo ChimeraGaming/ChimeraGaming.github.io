@@ -14,8 +14,9 @@ plugins:
 minimal_mistakes_skin: "dark"
 
 # Custom Buttons
-custom_css: 
-  - /assets/css/custom.css
+custom_css:
+  - /assets/css/guide.css
+  - /assets/css/projects.css
 
 search: true
 
