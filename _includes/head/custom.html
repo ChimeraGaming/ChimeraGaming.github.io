@@ -29,10 +29,14 @@
 .archive__item-title { font-size: 1.1rem; }
 .archive__item-excerpt { font-size: .95rem; }
 
-/* Show full-size teaser images */
+/* --- UNIFORM CARD IMAGES --- */
 .archive__item-teaser img {
   width: 100%;
-  height: auto;   /* no forced crop */
-  object-fit: contain;
+  height: auto;
+  max-height: 220px;   /* keeps things tidy */
+  object-fit: contain; /* shows full image, no crop */
+  background: #111;    /* optional dark backdrop for logos with transparency */
+  padding: 0.5rem;     /* optional breathing room */
+  border-radius: 4px;  /* smooth edges */
 }
 </style>
