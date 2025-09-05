@@ -2,9 +2,9 @@
 layout: splash
 title: ChimeraGaming
 header:
-  overlay_color: "#111"
-  overlay_filter: 0.45
-  overlay_image: https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop
+  overlay_color: "#000000"
+  overlay_filter: 0.7
+  overlay_image: /assets/headers/retro-grid.jpg
   actions:
     - label: "EZ-Flash Guide"
       url: /ez-flash/
