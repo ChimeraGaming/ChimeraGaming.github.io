@@ -1,29 +1,9 @@
 ---
-title: EZ-Flash Guide
-permalink: /ez-flash/
+title: "EZ-Flash Guide"
 layout: single
-toc: true
-toc_sticky: true
+permalink: /ez-flash/
 ---
 
-# EZ-Flash Guide
-
-Welcome to the **EZ-Flash Guide**.  
-This page will cover setup, firmware updates, saves/cheats, and troubleshooting.
-
-## Getting Started
-1. Format SD card FAT32 (64K allocation).
-2. Create folders: `/SAVER` and `/IMGS`.
-3. Copy the latest `ezkernel.bin` to the root.
-
-## Firmware Update
-- Hold **R** on boot → follow prompts.
-- Verify kernel in **Help → About**.
-
-## Saves & Cheats
-- Per-game `.sav` stored in `/SAVER`.
-- Cheats go in `/CHEATS/`.
-
-## Troubleshooting
-- **Black screen** → re-flash kernel, try another SD.
-- **Disk error** → reformat FAT32 (64K).
+<div class="button-container" style="text-align: center; margin-top: 100px;">
+  <a href="https://github.com/ChimeraGaming/EZ-Flash_Guide" class="glow-button">Guide Placeholder</a>
+</div>
