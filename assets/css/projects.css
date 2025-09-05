@@ -1,0 +1,13 @@
+/* Project buttons layout */
+.project-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.project-buttons .glow-button {
+  min-width: 200px;
+  text-align: center;
+}
