@@ -7,7 +7,7 @@ custom_css:
 ---
 
 <div style="text-align:center; margin-top: 14vh;">
-  <a href="https://github.com/ChimeraGaming/EZ-Flash-Guide" class="glow-button">
+  <a href="https://github.com/ChimeraGaming/EZ-Flash_Guide" class="glow-button">
     Guide Placeholder
   </a>
 </div>
