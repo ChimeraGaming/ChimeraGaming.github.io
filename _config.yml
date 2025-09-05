@@ -10,7 +10,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
-minimal_mistakes_skin: "dark"   # options: default, dark, contrast, etc.
+# Theme skin options: default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
+minimal_mistakes_skin: "dark"
+
 search: true
 
 author:
@@ -19,3 +21,22 @@ author:
     - label: GitHub
       icon: fab fa-github
       url: https://github.com/ChimeraGaming
+    - label: Modded In The Valley
+      icon: fas fa-tools
+      url: https://www.facebook.com/ModdedInTheValley/
+
+sass:
+  sass_dir: assets/css
+<footer class="page__footer">
+  <div class="page__footer-follow">
+    <p>© 2025 ChimeraGaming — Retro modding, guides, and tools.</p>
+    <p>
+      <a href="https://github.com/ChimeraGaming">
+        <i class="fab fa-github"></i> GitHub
+      </a> ·
+      <a href="https://www.facebook.com/ModdedInTheValley/">
+        <i class="fas fa-tools"></i> Modded In The Valley
+      </a>
+    </p>
+  </div>
+</footer>
