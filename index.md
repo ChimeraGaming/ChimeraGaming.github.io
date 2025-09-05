@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ChimeraGaming
+title: Welcome!
 classes: narrow
 
 feature_row:
@@ -43,9 +43,6 @@ feature_row2:
     btn_label: "Visit"
 ---
 
-## Welcome
-This site is my hub for **retro modding, flashcart guides, and browser tools**.  
-If you’re here for handheld flashcarts, start with the **[EZ-Flash Guide](/ez-flash/)**.
 
 {% include feature_row id="feature_row" %}
 {% include feature_row id="feature_row2" %}
