@@ -3,7 +3,7 @@ title: EZ-Flash Guide
 layout: single
 permalink: /ez-flash/
 custom_css:
-  - /assets/css/guide.css
+  - /assets/css/buttons.css
 ---
 
 <div style="text-align:center; margin-top: 14vh;">
