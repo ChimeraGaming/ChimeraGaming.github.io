@@ -18,8 +18,8 @@ excerpt: >
   GBA • NDS • 3DS • PSP/Vita • Chromium Extensions
 
 feature_row:
-  - image_path: https://upload.wikimedia.org/wikipedia/commons/3/39/Game_Boy_Advance_SP_Mk2.jpg
-    alt: "EZ-Flash Guide"
+  - image_path: https://pbs.twimg.com/profile_images/813189164959035392/GifYF3E1_400x400.jpg
+    alt: "EZ-Flash Logo"
     title: "EZ-Flash Guide"
     excerpt: "Setup, saves, cheats, kernel updates, and common fixes for Omega / DE."
     url: "/ez-flash/"
