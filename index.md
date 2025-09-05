@@ -24,7 +24,7 @@ feature_row:
     title: "Link Translator"
     excerpt: "English ↔ Grunt translator (Inside Joke)."
     url: "/LOZ_Link_Translator/"
-    btn_label: "Open Translator"
+    btn_label: "Translate" 
     btn_class: "btn--primary"
 
 feature_row2:
