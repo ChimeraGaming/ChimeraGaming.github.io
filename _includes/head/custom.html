@@ -132,7 +132,7 @@
   outline-offset:2px;
 }
 
-  /* === Simple layout helpers for the Projects page and single button pages === */
+/* === Simple layout helpers for the Projects page and single button pages === */
 .project-buttons{
   display:flex;
   flex-wrap:wrap;
@@ -157,4 +157,58 @@
   margin-top:14vh;
 }
 
+/* ===== Navbar (Top Bar) Styling) ===== */
+.site-header {
+  background: #1c1f24;            /* dark primary background */
+  border-bottom: 2px solid #0b0e12;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .7);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Site title (ChimeraGaming) */
+.site-title {
+  color: #33c3ff !important;      /* neon cyan */
+  text-shadow: 0 0 10px #33c3ff, 0 0 20px rgba(51,195,255,.6);
+  font-weight: 700;
+  transition: all .25s ease;
+}
+.site-title:hover {
+  color: #fff !important;
+  text-shadow: 0 0 15px #33c3ff, 0 0 25px #33c3ff;
+}
+
+/* Navbar links */
+.site-nav .page-link {
+  color: #33c3ff !important;
+  font-weight: 600;
+  transition: all .25s ease;
+}
+.site-nav .page-link:hover {
+  color: #fff !important;
+  text-shadow: 0 0 10px #33c3ff, 0 0 20px #33c3ff;
+}
+
+/* Active page link */
+.site-nav .page-link.active {
+  color: #6c63ff !important;       /* secondary accent */
+  text-shadow: 0 0 10px #6c63ff, 0 0 20px #6c63ff;
+}
+
+/* Search icon (match accent) */
+.search__toggle,
+.search__toggle:hover,
+.search__toggle:focus {
+  color: #33c3ff !important;
+  text-shadow: 0 0 10px #33c3ff;
+}
+
+/* Uniform button size on Projects page */
+.project-buttons .btn{
+  min-width: 200px;
+  min-height: 50px;
+  white-space: nowrap;
+}
+  
 </style>
