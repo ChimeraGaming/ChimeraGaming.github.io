@@ -20,8 +20,8 @@ feature_row:
     excerpt: |
       Little side projects of mine.<br>
       Including:<br>
-      - Stremio Folders<br>
-      - Amazon “Save for Later” search
+      Stremio Folders<br>
+      Amazon “Save for Later” search
     url: "https://github.com/ChimeraGaming/Chromium-Based-Web-Extensions"
     btn_label: "Repo"
 
@@ -49,10 +49,7 @@ feature_row2:
     alt: "Modded In The Valley"
     title: "Modded In The Valley"
     excerpt: |
-      My console modding shop.<br>
-      From shell swaps<br>
-      to mod chips,<br>
-      I do it all!
+      My console modding shop.
     url: "https://www.facebook.com/ModdedInTheValley/"
     btn_label: "Visit"
 ---
