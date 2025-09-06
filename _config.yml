@@ -1,8 +1,8 @@
 title: ChimeraGaming
 description: Retro modding, guides, and tools — EZ-Flash, Vita, 3DS, and more.
 url: https://chimeragaming.github.io
+baseurl: ""                     # ➕ important for user sites (leave empty)
 
-# Use the Minimal Mistakes theme GitHub Pages can build natively
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
@@ -10,15 +10,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
-# Theme skin options: default, air, aqua, contrast, dark, dirt, mint, neon, plum, sunrise
 minimal_mistakes_skin: "dark"
 
-# Custom Buttons
 custom_css:
   - /assets/css/guide.css
   - /assets/css/projects.css
 
 search: true
+search_full_content: true       # ➕ index full page content
+search_provider: lunr           # ➕ explicit (default, but good to set)
 
 author:
   name: ChimeraGaming
