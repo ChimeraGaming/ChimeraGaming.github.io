@@ -5,7 +5,6 @@ toc: true
 toc_sticky: true
 ---
 
-# About Me
 
 Hi, I’m ChimeraGaming.  
 
