@@ -7,9 +7,7 @@ feature_row:
     alt: "EZ-Flash Logo"
     title: "EZ-Flash Guide"
     excerpt: |
-      Comprehensive guide including:<br>
-      Models, Guides, Troubleshooting,<br>
-      Cheats, Themes, and more!
+      Models, Troubleshooting, Cheats, and more!
     url: "/ez-flash/"
     btn_label: "Guide"
     btn_class: "btn--primary"
@@ -18,10 +16,7 @@ feature_row:
     alt: "Chromium Extensions"
     title: "Chromium Extensions"
     excerpt: |
-      Little side projects of mine.<br>
-      Including:<br>
-      Stremio Folders<br>
-      Amazon “Save for Later” search
+      Little side projects of mine.
     url: "https://github.com/ChimeraGaming/Chromium-Based-Web-Extensions"
     btn_label: "Repo"
 
